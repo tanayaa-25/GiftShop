@@ -1,0 +1,102 @@
+.navbar-brand{
+    font-weight: bolder;
+  }
+
+.nav-item{
+    padding-left: 1rem;
+}
+
+.navbar{
+    background-color: rgb(224, 169, 169) ;
+} 
+
+.footer{
+    background-color: rgb(221, 187, 187) ;
+}
+
+.form-control{
+    background-color: rgb(224, 186, 186) ;
+    border: 1px solid rgba(255, 255, 255, .5);;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.form-control .form-inline{
+    width: 220px;
+}
+
+
+.form-control:focus{
+    color:black;
+    background-color: #fff;
+    border-color:#a75470;
+    box-shadow:none;
+}
+
+.form-control::placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+
+.btn {
+    color: #fff;
+    background-color:black;
+    border-color:rgb(224, 186, 186);
+    border-radius: 0;
+    height: 38px;
+  }
+
+.btn:hover,.btn:focus  {
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem #a56177;
+  }
+ 
+
+.carousel-caption,h3{
+    font-weight: lighter;
+}
+
+.footer{
+    font-size: x-small;
+}
+.dropdown{
+  border: none;
+  background-color: rgb(224, 169, 169) ;
+  color: white;
+  margin-top: 8px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.cart{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-right:40px;
+
+
+}
+.cart i {
+    font-size: 30px;
+}
+.cart .count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(224, 169, 169) ;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:1px solid black;
+    position: absolute;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.uname{
+  margin-top:8px;
+  font-size: 16px;
+  margin-left:5px;
+}

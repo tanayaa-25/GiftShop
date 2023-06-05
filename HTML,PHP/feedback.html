@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    form {
+  width: 400px;
+  background-color: lightblue;
+  text-align:left;
+  padding: 50px;
+}
+
+input, textarea {
+  padding: 12px;  
+  margin: 6px 6px 6px 0;
+}
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: darkgreen;
+  color: lightblue;
+}
+
+input[type=reset]:hover {
+  background-color: white;
+  color: blue;
+}
+</style>
+</head>
+<title>Feedback</title>
+<body>
+
+  <h1>Feedback</h1>
+
+        <form action="feedbackback.php" method="post">
+
+          <label for="fullName">Your Name</label> <br>
+          <input type="text" name="fullName"><br><br>
+      
+          <label for="gender">Your Gender</label> <br>
+          <input type="radio" name="gender" value="male">Male<br>
+          <input type="radio" name="gender" value="female">Female<br><br>
+      
+          <label for="email">Your E-mail</label> <br>
+          <input type="text" name="email"><br>
+          <br>
+      
+          <label for="comments">Your Comments</label> <br>
+          <textarea name="comments"></textarea><br><br>
+      
+          <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
